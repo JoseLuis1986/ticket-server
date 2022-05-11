@@ -20,7 +20,7 @@ class Server {
         // Configuraciones de sockets
         this.io = socketio( this.server, { 
             cors: {
-                origin: 'http://64.227.30.41:8080',
+                origin: 'http://159.223.160.175:8080',
                 methods: ["GET", "POST"],
             }  
         });
